@@ -7,17 +7,17 @@ import {
 
 export async function getCoverages({ id }) {
 
-  return getCoverage({ id, schema: "mobile-redcard" });
+  return getCoverage({ id, schema: "mobile-assistrip" });
 }
 
 export async function postCoverages({ data }) {
-  return postCoverage({ data, schema: "mobile-redcard" });
+  return postCoverage({ data, schema: "mobile-assistrip" });
 }
 
 export async function putCoverages({ id, data }) {
-  return putCoverage({ id, data, schema: "mobile-redcard" });
+  return putCoverage({ id, data, schema: "mobile-assistrip" });
 }
 
 export async function deleteCoverages({ id }) {
-  return deleteCoverage({ id, schema: "mobile-redcard" });
+  return deleteCoverage({ id, schema: "mobile-assistrip" });
 }

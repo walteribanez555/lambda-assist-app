@@ -3,22 +3,22 @@ import { getService, postService, putService, deleteService } from '../models/se
 
 export async function getServices({id}) { 
 
-    return getService({id, schema : 'mobile-redcard'});
+    return getService({id, schema : 'mobile-assistrip'});
 }
 
 export async function postServices({data}) { 
 
-    return postService({data, schema : 'mobile-redcard'});
+    return postService({data, schema : 'mobile-assistrip'});
 }
 
 export async function putServices({id, data}) { 
 
-    return putService({id, data, schema : 'mobile-redcard'});
+    return putService({id, data, schema : 'mobile-assistrip'});
 }
 
 export async function deleteServices({id}) { 
 
-    return deleteService({id, schema : 'mobile-redcard'});
+    return deleteService({id, schema : 'mobile-assistrip'});
 
 }
 

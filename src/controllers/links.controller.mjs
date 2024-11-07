@@ -3,20 +3,20 @@ import { getLink, postLink, putLink, deleteLink } from '../models/links.model.mj
 
 
 export async function getLinks({id}) {
-    return getLink({id, schema : 'mobile-redcard'});
+    return getLink({id, schema : 'mobile-assistrip'});
 }
 
 export async function postLinks({data}) {
-    return postLink({data, schema : 'mobile-redcard'});
+    return postLink({data, schema : 'mobile-assistrip'});
         
 }
 
 export async function putLinks({id, data}) {
-    return putLink({id, data, schema : 'mobile-redcard'});
+    return putLink({id, data, schema : 'mobile-assistrip'});
         
 }
 
 export async function deleteLinks({id}) {
-    return deleteLink({id, schema : 'mobile-redcard'});
+    return deleteLink({id, schema : 'mobile-assistrip'});
         
 }
